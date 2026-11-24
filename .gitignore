@@ -1,0 +1,13 @@
+# Java
+backend/target/
+# Node / Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+# Rapports
+**/coverage/
+# Secrets et IDE
+.env
+.idea/
+*.iml
+.vscode/
