@@ -1,0 +1,7 @@
+<!doctype html>
+<h1>Livres</h1>
+@if (erreur()) { <p role="alert">{{ erreur() }}</p>}
+<ul>
+    @for (l of livres(); track l.id) { <li>{{ l.titre }} - {{ l.auteur }}</li> }
+    @empty { <li> Aucun livre.</li> }
+</ul>
